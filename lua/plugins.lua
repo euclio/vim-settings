@@ -153,6 +153,10 @@ require('trouble').setup {
   fold_closed = '>',
   auto_open = true,
   auto_close = true,
+  padding = false,
+  indent_lines = false,
+  use_lsp_diagnostic_signs = true,
+  auto_preview = false,
   signs = {
     error = 'error',
     warning = 'warn',

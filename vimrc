@@ -454,6 +454,11 @@ if &t_Co >= 88
   hi! link DiagnosticHint DiagnosticInfo
   hi! link DiagnosticUnderlineHint DiagnosticUnderlineInfo
 
+  hi! link TroubleTextError DiagnosticError
+  hi! link TroubleTextWarning DiagnosticWarn
+  hi! link TroubleTextInformation DiagnosticInfo
+  hi! link TroubleTextHint DiagnosticHint
+
   " Signify diff markers
   "
   " These background colors should match the sign column background.
