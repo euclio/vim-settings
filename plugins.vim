@@ -163,6 +163,10 @@ if has('nvim')
   Plug 'neovim/nvim-lspconfig'
   Plug 'creativenull/diagnosticls-configs-nvim'
   Plug 'j-hui/fidget.nvim'
+  Plug 'folke/trouble.nvim'
+
+  hi! link TroubleError DiagnosticErrorText
+  hi! link TroubleTextError DiagnosticErrorText
 
   call sign_define([
         \ {

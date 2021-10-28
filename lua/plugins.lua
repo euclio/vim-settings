@@ -145,3 +145,18 @@ cmp.setup({
     end,
   },
 })
+
+-- Diagnostics display
+require('trouble').setup {
+  icons = false,
+  fold_open = 'v',
+  fold_closed = '>',
+  auto_open = true,
+  auto_close = true,
+  signs = {
+    error = 'error',
+    warning = 'warn',
+    hint = 'hint',
+    information = 'into',
+  }
+}
