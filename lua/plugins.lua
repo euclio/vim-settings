@@ -155,7 +155,7 @@ require('trouble').setup {
   auto_close = true,
   padding = false,
   indent_lines = false,
-  use_lsp_diagnostic_signs = true,
+  use_diagnostic_signs = true,
   auto_preview = false,
   signs = {
     error = 'error',
